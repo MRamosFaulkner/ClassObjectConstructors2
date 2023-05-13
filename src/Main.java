@@ -1,17 +1,28 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    Scanner scanner = new Scanner(System.in);
+    ArrayList<BankAccount> accounts = new ArrayList<BankAccount>();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println("Hello World! Welcome to the Bank of Faulkner & Sons!");
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+
+        //Objects created
+        BankAccount holder1 = new BankAccount("John", 500);
+//        holder1.deposit(100);
+//        holder1.printDetails();
+
+//        BankAccount holder2 = new BankAccount("Larry", 5000);
+//        holder2.withdrawal(100);
+//
+//        BankAccount holder3 = new BankAccount("Macy", 300);
+//        holder3.deposit(100);
+//
+//
+//        System.out.println(holder2);
+//        System.out.println(holder3);
+
     }
 }
